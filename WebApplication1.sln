@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{949B0D40-F133-470A-9CAD-99A59BF3E465}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{17695492-E9AD-4757-9B5E-CC6D08174E1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management", "Management\Management.csproj", "{7158E2A4-7E06-494E-A2BD-E592F6299D73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Revit", "Revit\Revit.csproj", "{1113435F-615A-465F-9DA9-81307C41920E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{949B0D40-F133-470A-9CAD-99A59BF3E465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949B0D40-F133-470A-9CAD-99A59BF3E465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949B0D40-F133-470A-9CAD-99A59BF3E465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949B0D40-F133-470A-9CAD-99A59BF3E465}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17695492-E9AD-4757-9B5E-CC6D08174E1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17695492-E9AD-4757-9B5E-CC6D08174E1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17695492-E9AD-4757-9B5E-CC6D08174E1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17695492-E9AD-4757-9B5E-CC6D08174E1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7158E2A4-7E06-494E-A2BD-E592F6299D73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7158E2A4-7E06-494E-A2BD-E592F6299D73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7158E2A4-7E06-494E-A2BD-E592F6299D73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7158E2A4-7E06-494E-A2BD-E592F6299D73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1113435F-615A-465F-9DA9-81307C41920E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1113435F-615A-465F-9DA9-81307C41920E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1113435F-615A-465F-9DA9-81307C41920E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1113435F-615A-465F-9DA9-81307C41920E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

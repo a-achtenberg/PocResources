@@ -1,0 +1,55 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Shared\Shared.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="Resources\Management_Resources_Stone.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Management_Resources_Stone.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Management_Resources_Ton.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Management_Resources_Ton.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Management_Resources_Ton_Mobile.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Management_Resources_Ton_Mobile.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Resources\Management_Resources_Stone_Mobile.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Management_Resources_Stone_Mobile.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="Resources\Management_Resources_Stone.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Management_Resources_Stone.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Management_Resources_Ton.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Management_Resources_Ton.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Management_Resources_Ton_Mobile.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Management_Resources_Ton_Mobile.resx</DependentUpon>
+      </Compile>
+      <Compile Update="Resources\Management_Resources_Stone_Mobile.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Management_Resources_Stone_Mobile.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>
